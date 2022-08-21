@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="262649d2-d82d-4059-b12c-8779bb59e527" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../前端学习/03-cscde创建网页文件.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端学习/前端学习笔记心得.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../前端学习/前端学习笔记心得.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端学习/图片尝试.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端学习/无序有序列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/../前端学习/无序有序列表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端学习/标题标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端学习/段落尝试.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端学习/超链接.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端学习/路径学习.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端学习/音频.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DKy2OVVBASqyHTKDhYHAJE5ZqJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="262649d2-d82d-4059-b12c-8779bb59e527" name="Changes" comment="" />
+      <created>1660461863094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660461863094</updated>
+    </task>
+    <servers />
+  </component>
+</project>
