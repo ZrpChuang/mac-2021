@@ -1,0 +1,30 @@
+class Solution {
+public:
+    int myAtoi(string s) {
+        long result = 0;
+        int size=s.length();
+        int p=0;
+        int flag=1;
+        while(s[p]==' '){
+            p++;
+        }
+        if(s[p]=='+'){
+            flag=1;
+            p++;
+        }
+        else if(s[p]=='-'){
+            flag=-1;
+            p++;
+        }
+        while(p<size&&s[p]>='0'&&s[p]<='9'){
+            if(result>2147483648) break;
+            result= result*10 + int(s[p]-'0');
+            p++;
+        }
+        result*=flag;
+        if(result>2147483647 ) return 2147483647;
+        if(result<-2147483648) return -2147483648;
+        return result;
+        
+    }
+};
