@@ -1,0 +1,3 @@
+/Users/zrp/Desktop/zrpstudy/编程文件/clion/clion 尝试项目/cmake-build-debug/CMakeFiles/untitled.dir
+/Users/zrp/Desktop/zrpstudy/编程文件/clion/clion 尝试项目/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zrp/Desktop/zrpstudy/编程文件/clion/clion 尝试项目/cmake-build-debug/CMakeFiles/rebuild_cache.dir

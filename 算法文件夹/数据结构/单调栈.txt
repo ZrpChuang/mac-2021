@@ -1,0 +1,24 @@
+给定一个长度为 N的整数数列，输出每个数左边第一个比它小的数，如果不存在则输出 −1
+#include<iostream>
+
+using namespace std;
+
+const int N = 10010;
+int stack[N];
+
+int main(void){
+    int n;
+    cin >> n ;
+    int hh = 0,tt = -1;
+    
+    while(n --){
+        int num;
+        cin >> num;
+        while(hh <= tt && num <= stack[tt]) tt --;
+        if(hh <= tt) cout << stack[tt] << " ";
+        else cout << -1 << " ";
+        stack[ ++ tt] = num;
+    }
+    
+    return 0;
+}

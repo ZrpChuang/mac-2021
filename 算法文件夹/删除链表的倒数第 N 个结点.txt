@@ -1,0 +1,36 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     struct ListNode *next;
+ * };
+ */
+给你一个链表，删除链表的倒数第 n 个结点，并且返回链表的头结点。
+
+struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
+    struct ListNode* temp=head;
+    struct ListNode* delete=NULL;
+    int k=0;//记录个数
+    while(temp!=NULL){
+        k++;
+        temp=temp->next;
+    }
+    int target=k-n;
+    if(target==0){
+        delete=head;
+        head=head->next;
+        free(delete);
+        return head;
+    }
+    else{
+        k=1;temp=head;
+        while(k<target){
+            k++;
+            temp=temp->next;
+        }
+        delete=temp->next;
+        temp->next=temp->next->next;
+        free(delete);
+        return head;
+    }
+}
