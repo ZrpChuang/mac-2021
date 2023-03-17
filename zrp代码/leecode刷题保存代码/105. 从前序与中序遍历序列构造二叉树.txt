@@ -1,0 +1,88 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     struct TreeNode *left;
+ *     struct TreeNode *right;
+ * };
+ */
+struct TreeNode* buildsub( int* preorder,int prestart,int preend,int* inorder,int instart,int inend);
+int findout(int* array,int start ,int end,int target);
+
+
+struct TreeNode* buildTree(int* preorder, int preorderSize, int* inorder, int inorderSize){
+    
+    struct TreeNode* result = buildsub(preorder,0,preorderSize-1,inorder,0,inorderSize-1);
+
+    return result;
+}
+                //这个用于连接
+struct TreeNode* buildsub( int* preorder,int prestart,int preend,int* inorder,int instart,int inend)//七个参数
+{
+    struct TreeNode* T = (struct TreeNode*)malloc(sizeof(struct TreeNode));
+    //为传递过来的树枝增添叶子
+    T->val = preorder[prestart];//先序的第一个数字赋值
+    
+    if(instart==inend)
+    {
+        T->left = NULL;
+        T->right = NULL;
+    }
+    else{
+        int index = findout(inorder,instart,inend,preorder[prestart]);
+        int count = index-instart;
+        if(index-1>=instart)
+        {
+            T->left = buildsub(preorder,prestart+1,prestart+count,inorder,instart,index-1);
+        }
+        else{
+            T->left = NULL;
+        }
+        
+        if(index+1<=inend)
+        {
+            T->right=buildsub(preorder,prestart+count+1,preend,inorder,index+1,inend);
+        }
+        else
+        {
+            T->right = NULL;
+        }
+    }
+    return T;
+}
+
+int findout(int* array,int start ,int end,int target)
+{//返回数字在另一个数组的位置
+    int index = start;
+    while(array[index]!=target&&index<=end)
+    {
+        index++;
+    }
+    
+    return index;
+}
+
+
+/*
+	执行结果：
+通过
+显示详情
+添加备注
+
+执行用时：
+16 ms
+, 在所有 C 提交中击败了
+51.74%
+的用户
+内存消耗：
+11.3 MB
+, 在所有 C 提交中击败了
+83.17%
+的用户
+通过测试用例：
+203 / 203
+*/
+
+
+
+

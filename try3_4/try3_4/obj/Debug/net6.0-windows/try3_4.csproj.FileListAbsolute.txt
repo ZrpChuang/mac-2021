@@ -1,0 +1,17 @@
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\bin\Debug\net6.0-windows\try3_4.exe
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\bin\Debug\net6.0-windows\try3_4.deps.json
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\bin\Debug\net6.0-windows\try3_4.runtimeconfig.json
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\bin\Debug\net6.0-windows\try3_4.dll
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\bin\Debug\net6.0-windows\try3_4.pdb
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\obj\Debug\net6.0-windows\try3_4.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\obj\Debug\net6.0-windows\try3_4.Form1.resources
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\obj\Debug\net6.0-windows\try3_4.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\obj\Debug\net6.0-windows\try3_4.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\obj\Debug\net6.0-windows\try3_4.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\obj\Debug\net6.0-windows\try3_4.AssemblyInfo.cs
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\obj\Debug\net6.0-windows\try3_4.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\obj\Debug\net6.0-windows\try3_4.dll
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\obj\Debug\net6.0-windows\refint\try3_4.dll
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\obj\Debug\net6.0-windows\try3_4.pdb
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\obj\Debug\net6.0-windows\try3_4.genruntimeconfig.cache
+\\Mac\Home\Desktop\zrpstudy\program\try3_4\try3_4\obj\Debug\net6.0-windows\ref\try3_4.dll

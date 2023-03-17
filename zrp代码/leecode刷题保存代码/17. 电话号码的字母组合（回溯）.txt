@@ -1,0 +1,48 @@
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+char ntl[10][4] = {"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+int howmany[10] = {0,0,3,3,3,3,3,4,3,4};
+
+
+char ** letterCombinations(char *digits, int* returnSize){
+    void DFS(char * digits,int len,int nowplace,char help[],char **ans,int* returnSize);
+    int len = strlen(digits);//确定字符串长度
+    if(len==0)//若字符串长度等于0
+    {
+        *returnSize = 0;
+        return NULL; //直接返回
+    }
+    *returnSize = 0;//初始化
+
+    long num = (long)pow(4,len);
+    char help[1000];//加上杠0
+
+    char **ans = (char **)malloc(num * sizeof(char *));
+    
+    DFS(digits,len,0,help,ans,returnSize);
+
+    return ans;
+
+}
+void DFS(char *digits,int len,int nowplace,char help[],char **ans,int* returnSize)
+{
+    
+    if(nowplace==len)//收割
+    {
+        help[nowplace] = '\0';
+        ans[*returnSize] = (char*)malloc(5*sizeof(char));
+        strcpy(ans[*returnSize],help);
+        *returnSize+=1;
+    }
+    else if(nowplace<len)
+    {
+        int nownumber = digits[nowplace]-'0';
+        int i;
+        for(i = 0;i<howmany[nownumber];i++)
+        {
+            help[nowplace] = ntl[nownumber][i];
+            DFS(digits,len,nowplace+1,help,ans,returnSize);
+        }
+    }
+}

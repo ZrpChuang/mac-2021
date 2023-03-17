@@ -1,0 +1,96 @@
+﻿  大物实验.cpp
+D:\zrp study\编程文件\大物实验\大物实验.cpp(53,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\zrp study\编程文件\大物实验\大物实验.cpp(39,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(153,24): warning C4305: “初始化”: 从“double”到“float”截断
+D:\zrp study\编程文件\大物实验\大物实验.cpp(154,66): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\zrp study\编程文件\大物实验\大物实验.cpp(155,66): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\zrp study\编程文件\大物实验\大物实验.cpp(114,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(118,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(123,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(132,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(136,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(141,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(150,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(152,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(176,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(183,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(186,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(190,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(194,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(198,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(202,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(214,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(217,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(221,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(225,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(229,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(233,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(245,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(248,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(251,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(255,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(259,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(263,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(267,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(305,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\zrp study\编程文件\大物实验\大物实验.cpp(326,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\zrp study\编程文件\大物实验\大物实验.cpp(333,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\zrp study\编程文件\大物实验\大物实验.cpp(291,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(295,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(312,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(316,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(332,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(338,78): warning C4305: “初始化”: 从“double”到“float”截断
+D:\zrp study\编程文件\大物实验\大物实验.cpp(376,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\zrp study\编程文件\大物实验\大物实验.cpp(342,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(346,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(352,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(354,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(358,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(363,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(399,9): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\zrp study\编程文件\大物实验\大物实验.cpp(400,9): warning C4778: “printf”: 格式字符串“%\n”未终止
+D:\zrp study\编程文件\大物实验\大物实验.cpp(389,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(412,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(422,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(454,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(475,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(481,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(403,11): warning C4101: “Lambda”: 未引用的局部变量
+D:\zrp study\编程文件\大物实验\大物实验.cpp(514,12): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\zrp study\编程文件\大物实验\大物实验.cpp(516,10): warning C4778: “printf”: 格式字符串“%\n”未终止
+D:\zrp study\编程文件\大物实验\大物实验.cpp(495,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(499,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(511,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(553,30): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\zrp study\编程文件\大物实验\大物实验.cpp(563,8): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\zrp study\编程文件\大物实验\大物实验.cpp(531,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(536,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(541,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\zrp study\编程文件\大物实验\大物实验.cpp(672,127): error C2664: “HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)”: 无法将参数 2 从“const char [5]”转换为“LPCWSTR”
+D:\zrp study\编程文件\大物实验\大物实验.cpp(672,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\shellapi.h(96,22): message : 参见“ShellExecuteW”的声明
+D:\zrp study\编程文件\大物实验\大物实验.cpp(677,127): error C2664: “HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)”: 无法将参数 2 从“const char [5]”转换为“LPCWSTR”
+D:\zrp study\编程文件\大物实验\大物实验.cpp(677,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\shellapi.h(96,22): message : 参见“ShellExecuteW”的声明
+D:\zrp study\编程文件\大物实验\大物实验.cpp(681,127): error C2664: “HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)”: 无法将参数 2 从“const char [5]”转换为“LPCWSTR”
+D:\zrp study\编程文件\大物实验\大物实验.cpp(681,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\shellapi.h(96,22): message : 参见“ShellExecuteW”的声明
+D:\zrp study\编程文件\大物实验\大物实验.cpp(685,127): error C2664: “HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)”: 无法将参数 2 从“const char [5]”转换为“LPCWSTR”
+D:\zrp study\编程文件\大物实验\大物实验.cpp(685,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\shellapi.h(96,22): message : 参见“ShellExecuteW”的声明
+D:\zrp study\编程文件\大物实验\大物实验.cpp(689,128): error C2664: “HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)”: 无法将参数 2 从“const char [5]”转换为“LPCWSTR”
+D:\zrp study\编程文件\大物实验\大物实验.cpp(689,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\shellapi.h(96,22): message : 参见“ShellExecuteW”的声明
+D:\zrp study\编程文件\大物实验\大物实验.cpp(696,102): error C2664: “HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)”: 无法将参数 2 从“const char [5]”转换为“LPCWSTR”
+D:\zrp study\编程文件\大物实验\大物实验.cpp(696,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\shellapi.h(96,22): message : 参见“ShellExecuteW”的声明
+D:\zrp study\编程文件\大物实验\大物实验.cpp(700,128): error C2664: “HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)”: 无法将参数 2 从“const char [5]”转换为“LPCWSTR”
+D:\zrp study\编程文件\大物实验\大物实验.cpp(700,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\shellapi.h(96,22): message : 参见“ShellExecuteW”的声明
+D:\zrp study\编程文件\大物实验\大物实验.cpp(704,101): error C2664: “HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)”: 无法将参数 2 从“const char [5]”转换为“LPCWSTR”
+D:\zrp study\编程文件\大物实验\大物实验.cpp(704,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\shellapi.h(96,22): message : 参见“ShellExecuteW”的声明
+D:\zrp study\编程文件\大物实验\大物实验.cpp(708,126): error C2664: “HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)”: 无法将参数 2 从“const char [5]”转换为“LPCWSTR”
+D:\zrp study\编程文件\大物实验\大物实验.cpp(708,25): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\shellapi.h(96,22): message : 参见“ShellExecuteW”的声明

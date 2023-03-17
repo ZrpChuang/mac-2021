@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6-2顶点覆盖问题", "6-2顶点覆盖问题.vcxproj", "{179DA82B-6AC1-466F-AFCA-D40E94280568}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{179DA82B-6AC1-466F-AFCA-D40E94280568}.Debug|x64.ActiveCfg = Debug|x64
+		{179DA82B-6AC1-466F-AFCA-D40E94280568}.Debug|x64.Build.0 = Debug|x64
+		{179DA82B-6AC1-466F-AFCA-D40E94280568}.Debug|x86.ActiveCfg = Debug|Win32
+		{179DA82B-6AC1-466F-AFCA-D40E94280568}.Debug|x86.Build.0 = Debug|Win32
+		{179DA82B-6AC1-466F-AFCA-D40E94280568}.Release|x64.ActiveCfg = Release|x64
+		{179DA82B-6AC1-466F-AFCA-D40E94280568}.Release|x64.Build.0 = Release|x64
+		{179DA82B-6AC1-466F-AFCA-D40E94280568}.Release|x86.ActiveCfg = Release|Win32
+		{179DA82B-6AC1-466F-AFCA-D40E94280568}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A1BAC31-58C9-4194-804E-803603302E69}
+	EndGlobalSection
+EndGlobal

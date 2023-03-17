@@ -1,0 +1,40 @@
+执行用时：4 ms, 在所有 C++ 提交中击败了91.59%的用户
+内存消耗：8.1 MB, 在所有 C++ 提交中击败了24.56%的用户
+
+class Solution {
+public:
+    vector<vector<string>> result;
+    int total;//记录总数量
+    int temp[10];//空闲位置
+    vector<vector<string>> solveNQueens(int n) {
+        total = n;
+        backtrace(1);
+        return result;
+    }
+    
+    void backtrace(int m){
+        if(m>total){
+            vector<string> a;
+            for(int i = 1;i<=total;i++){
+                string* trans = new string;
+                for(int j = 0;j<temp[i]-1;j++) *trans=*trans+'.';
+                *trans = *trans+'Q';
+                for(int j=temp[i];j<total;j++) *trans=*trans+'.';
+                a.push_back(*trans);
+                }
+            result.push_back(a);
+        }//结束
+        else{
+            for(int i = 1;i<=total;i++){
+                temp[m]=i;
+                if(place(m)==true) backtrace(m+1);
+            }
+        }
+    }
+    bool place(int n){
+        for(int i = 1;i<n;i++){
+            if(n-i==abs(temp[n]-temp[i])||temp[n]==temp[i]) return false;
+        }
+        return true;
+    }//判断位置函数
+};

@@ -1,0 +1,7 @@
+﻿  7-7有序链表.cpp
+D:\zrp study\编程文件\舍伍德算法\7-7有序链表.cpp(2,1): warning C4005: “INFINITY”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(88): message : 参见“INFINITY”的前一个定义
+D:\zrp study\编程文件\舍伍德算法\7-7有序链表.cpp(9,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\zrp study\编程文件\舍伍德算法\7-7有序链表.cpp(47,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\zrp study\编程文件\舍伍德算法\7-7有序链表.cpp(82,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  舍伍德算法.vcxproj -> D:\zrp study\编程文件\舍伍德算法\x64\Debug\舍伍德算法.exe

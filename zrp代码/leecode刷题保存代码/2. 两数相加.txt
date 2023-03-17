@@ -1,0 +1,93 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     struct ListNode *next;
+ * };定义结构体
+ */
+
+
+struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
+    struct ListNode* p1=l1;//操作使用的指针
+    struct ListNode* p2=l2;
+    struct ListNode* p3;
+    struct ListNode* l3;
+    struct ListNode* q;//构造空间
+    l3 = (struct ListNode*)malloc(sizeof(struct ListNode));
+    p3 = l3; 
+    l3->next = NULL;
+
+    int more = 0;//存取进位数,初始化为零
+    while(p1!=NULL||p2!=NULL)
+    {
+        if(p1!=NULL&&p2!=NULL)
+        {
+           q = (struct ListNode*)malloc(sizeof(struct ListNode));
+           q->val = (p1->val+p2->val+more)%10;
+           q->next = p3->next;
+           p3->next = q;
+           p3 = p3->next;
+           
+
+
+           if((p1->val + p2->val + more)>=10)
+           {
+               more = 1;
+           }
+           else{
+               more = 0;
+           }
+           p2 = p2->next;
+           p1 = p1->next;
+        }//两者均不为空
+        else if (p1==NULL)
+        {
+        q = (struct ListNode*)malloc(sizeof(struct ListNode));
+           q->val = (p2->val+more)%10;
+           q->next = p3->next;
+           p3->next = q;
+           
+
+            if((p2->val+more)>=10)
+           {
+               more = 1;
+           }
+           else{
+               more = 0;
+           }
+           p3 = p3->next;
+           p2 = p2->next;
+        }//p1为空
+        else if (p2==NULL)
+        {
+        q = (struct ListNode*)malloc(sizeof(struct ListNode));
+           q->val = (p1->val+more)%10;
+           q->next = p3->next;
+           p3->next = q;
+           
+
+            if((p1->val+more)>=10)
+           {
+               more = 1;
+           }
+           else
+           {
+               more = 0;
+           }
+           p3 = p3->next;
+           p1 = p1->next;
+        }//p2为空
+    }
+    if(more == 1)
+    {
+        q = (struct ListNode*)malloc(sizeof(struct ListNode));
+           q->val = 1;
+           q->next = p3->next;
+           p3->next = q;
+    }
+    p3 = l3;
+    l3 = l3->next;
+    free(p3);
+
+    return l3;
+}

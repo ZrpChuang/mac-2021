@@ -1,0 +1,29 @@
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+int* grayCode(int n, int* returnSize){
+    int i,j;//需要用到的辅助变量
+	if (n == 1){//如果格雷码是一位的
+		int* head = (int*)malloc(2*sizeof(int));
+		
+		head[0] = 0;
+		head[1] = 1;
+        *returnSize = pow(2,1);
+		return head;
+	}
+	else
+	{
+		int result = pow(2, n - 1);
+		int* temp = grayCode(n - 1,returnSize);//分治思想，调用之前的结果 
+		int* head = (int*)malloc(2*result*sizeof(int));
+		
+		for (i = 0; i < result; i++) {
+			head[i] = temp[i];
+		}
+		for (i = result,j = result-1; i < 2 * result; i++,j--) {
+			head[i] = temp[j]+result;
+		}
+        *returnSize = pow(2,n);
+		return head;
+	}
+}

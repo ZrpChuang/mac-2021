@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6-4最小重量机器问题 分支界限法", "6-4最小重量机器问题 分支界限法.vcxproj", "{4E2D11C8-ED04-4E5F-A2D4-70C817FA5E12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E2D11C8-ED04-4E5F-A2D4-70C817FA5E12}.Debug|x64.ActiveCfg = Debug|x64
+		{4E2D11C8-ED04-4E5F-A2D4-70C817FA5E12}.Debug|x64.Build.0 = Debug|x64
+		{4E2D11C8-ED04-4E5F-A2D4-70C817FA5E12}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E2D11C8-ED04-4E5F-A2D4-70C817FA5E12}.Debug|x86.Build.0 = Debug|Win32
+		{4E2D11C8-ED04-4E5F-A2D4-70C817FA5E12}.Release|x64.ActiveCfg = Release|x64
+		{4E2D11C8-ED04-4E5F-A2D4-70C817FA5E12}.Release|x64.Build.0 = Release|x64
+		{4E2D11C8-ED04-4E5F-A2D4-70C817FA5E12}.Release|x86.ActiveCfg = Release|Win32
+		{4E2D11C8-ED04-4E5F-A2D4-70C817FA5E12}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ECBCBEF-3261-49B3-8BE0-3CF97FE0B12E}
+	EndGlobalSection
+EndGlobal

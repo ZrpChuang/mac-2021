@@ -1,0 +1,3 @@
+﻿  源.cpp
+D:\zrp study\编程文件\作业4-7\源.cpp(53,15): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+  作业4-7.vcxproj -> D:\zrp study\编程文件\作业4-7\x64\Debug\作业4-7.exe

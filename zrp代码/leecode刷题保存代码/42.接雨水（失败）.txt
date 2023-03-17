@@ -1,0 +1,48 @@
+int checkleft(int nowplace,int nowheight,int* height,int heightSize){
+    int result = 0;
+    for(int i = nowplace+1;i<heightSize;i++){
+        if(height[i]>=nowheight){
+            result = i;
+            break;
+        }
+    }
+    return result;
+}
+int trap(int* height, int heightSize){
+    int *state = (int*)malloc(heightSize *sizeof(int));//动态空间
+    int max = height[0];
+    int count = 0;
+    for(int i =0;i<heightSize;i++){
+        if(height[i]>max) max = height[i];//找出最高值
+        state[i] = -1;//状态未知
+    }
+    for(int i = 1;i<=max;i++){
+        state[0] = 0;
+       for(int j = 1;j<heightSize;j++){
+           if(height[j]>=i){
+               state[j] = 0;
+           }
+           else{
+               if(height[j-1]>=i){
+                    if(checkleft(j,i,height,heightSize)>0){
+                        j=i-1;
+                        count+=i-j;
+                    }
+                    else{
+                        state[j] = 0;
+                    }
+                }
+           else if(height[j-1]<i){//无墙
+               if(state[j-1] == 1){
+                   state[j] = 1;count++;
+               }
+               else if(state[j-1]==0){
+                   state[j] = 0;
+               }
+           }
+        }
+           
+       } 
+    }
+    return count;
+}

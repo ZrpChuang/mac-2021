@@ -1,0 +1,100 @@
+/*
+给定两个大小分别为 m 和 n 的正序（从小到大）数组 nums1 和 nums2。请你找出并返回这两个正序数组的 中位数 。
+
+算法的时间复杂度应该为 O(log (m+n))
+执行用时：4 ms, 在所有 C 提交中击败了 99.98% 的用户
+内存消耗：6.5 MB , 在所有 C 提交中击败了 45.31% 的用户
+*/
+double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size)
+  {
+    double outcome;//存储结果
+    int n = nums1Size;//第一个数组元素个数
+    int m = nums2Size;//第二个数组
+    int parity_n = n%2;//确定第一个数组的奇偶性 
+    int parity_m = m%2;//确定第二个数组奇偶性 
+    int parityTt = (m+n)%2;//确定整体的奇偶性
+    int partition_n;
+    int partition_m;//定义分割线
+
+	if(n==0){
+        if(m==1) return nums2[0];
+		if(parity_m==1)return nums2[m/2];
+        else return (nums2[m/2]+nums2[m/2-1])*1.0/2;
+	}
+	if(m==0){
+        if(n==1) return nums1[0];
+		if(parity_n==1)return nums1[n/2];
+        else return (nums1[n/2]+nums1[n/2-1])*1.0/2;
+	}
+    
+    if(m==1&&n==1){//这种情况是两个数组都只有一个元素
+        return (nums1[0]+nums2[0])*1.0/2;
+    }
+    //初始分割线
+    //我定义的分割线是 包括partition指向的元素，及其左边的所有元素 
+    if(parity_m==0&&parity_n==0){//全是偶数
+        partition_n = (n)/2-1;
+        partition_m = (m)/2-1;
+    }
+    else{//全是奇数或者一个奇数一个偶数都可以这样划分     
+        partition_n = n/2 -1;
+        partition_m = m/2;
+    }
+    while(partition_n>= 0&& partition_m<m-1&&nums1[partition_n]>nums2[partition_m + 1]){
+    	
+        partition_n -= 1;
+        partition_m += 1;
+    }
+    while(partition_m>=0 && partition_n< n-1&&nums2[partition_m]>nums1[partition_n + 1]){
+        partition_n+=1;
+        partition_m-=1;
+    }//两个while循环表示partition的移动 
+    //printf("partition_n:%d\n",partition_n);
+    //printf("partition_n:%d\n",partition_m);
+    
+    if(parityTt==1){//整体是奇数的情况
+        if(partition_m>=0&&partition_n>=0&&partition_m<m-1&&partition_n<n-1) {//正常的情况
+            outcome = MAX(nums1[partition_n],nums2[partition_m]);
+        }
+        else if(partition_n == -1) outcome = nums2[partition_m];//第一个数组完全被划分到右边 
+        else if(partition_m==-1) outcome = nums1[partition_n];//第一个数组完全被划分到右边
+        else outcome = MAX(nums1[partition_n],nums2[partition_m]);   
+    }
+    else//偶数情况
+    {
+        if(partition_m>=0&&partition_n>=0&&partition_m<m-1&&partition_n<n-1) {//正常情况
+            outcome =  MAX(nums1[partition_n],nums2[partition_m]) ;
+            outcome+= MIN(nums1[partition_n+1],nums2[partition_m+1]);
+            outcome =outcome*1.0/2;
+        }
+        else if(partition_n == -1) 
+        {//第一个数组被全部划分到右边，但是第二个数组不是全部划分到左边
+        	if(partition_m==m-1) outcome = (nums1[0]+nums2[m-1])*1.0/2;
+			else{
+				outcome = MIN(nums1[0],nums2[partition_m+1]);
+	            outcome+=nums2[partition_m];
+	            outcome/=2;
+			}
+        }
+        else if(partition_m==-1)//第二个数组被全部划分到右边，但是第1个数组不是全部划分到左边 
+        {
+        	if(partition_n==n-1) outcome = (nums1[n-1]+nums2[0])*1.0/2 ;
+        	else{
+        		outcome = MIN(nums1[partition_n+1],nums2[0]);
+            	outcome += nums1[partition_n];
+            	outcome =outcome*1.0/2;
+			}
+        }
+        else if(partition_m == m-1){
+        	outcome = MAX(nums1[partition_n],nums2[m-1]);
+            outcome+=nums1[partition_n+1];
+            outcome =outcome*1.0/2;
+		}
+		else if(partition_n ==n-1){
+			outcome = MAX(nums1[n-1],nums2[partition_m]);
+            outcome += nums2[partition_m+1];
+            outcome =outcome*1.0/2;
+		}
+    }
+    return outcome;
+}

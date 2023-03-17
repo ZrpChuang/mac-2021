@@ -1,0 +1,44 @@
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+ void finall(int n,char** result,int count,int* returnSize,char* help,int left,int right)//stack一开始就是，表示第一个必须是左括号
+{
+
+    if(count==2*n-1 && left == right&&right==n)
+    {
+        
+        //result = (char**)realloc(result,(*returnSize + 2)*sizeof(char*));
+        
+        result[*returnSize] = (char*)malloc((2*n+1)*sizeof(char));
+        strcpy(result[*returnSize],help);
+        //result[*returnSize] = temp;
+
+        *returnSize = *returnSize + 1;
+        return;
+    }
+    else if(count<2*n-1 )
+    {//分叉左右子树
+        if(right<left)//右括号不比左括号多
+        {
+            help[count+1] = ')';
+            finall(n,result,count+1,returnSize,help,left,right+1); 
+        }
+        if(left<n)//左括号不超过一半
+        {
+            help[count+1] = '(';
+            finall(n,result,count+1,returnSize,help,left+1,right); 
+        }
+    }
+}
+char ** generateParenthesis(int n, int* returnSize){
+
+    *returnSize = 0;//初始化
+    char** result = (char**)malloc(1430*sizeof(char*));//初始化内存空间
+    char* help = (char*)malloc((2*n+1)*sizeof(char));//辅助空间
+    help[0] = '(';//先放入左括号
+    help[2*n] = '\0';
+
+    finall(n,result,0,returnSize,help,1,0);
+
+    return result;
+}

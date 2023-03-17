@@ -1,0 +1,78 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     struct TreeNode *left;
+ *     struct TreeNode *right;
+ * };
+ */
+
+
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+struct TreeNode** generateTrees(int n, int* returnSize){
+    struct TreeNode** BuildSubTree(int min,int max,int* subTsize);
+    return BuildSubTree(1,n,returnSize);
+}
+
+struct TreeNode** BuildSubTree(int min,int max,int* subTsize)
+{
+    struct TreeNode** result;//存储结果
+    struct TreeNode** leftsub;
+    struct TreeNode** rightsub;
+
+    int leftTraval,rightTraval;
+    int leftTreeSize,rightTreeSize;//记录左右子树的个数，方便遍历
+    *subTsize = 0;//初始化为0
+    result = malloc(0);
+    int i;
+    if(max<min)
+    {
+        result = (struct TreeNode**)realloc(result,sizeof(struct TreeNode*));
+        result[*subTsize] = NULL;
+        *subTsize += 1;
+        return result;
+    }
+    for(i = min;i<=max;i++)
+    {
+        leftsub = BuildSubTree(min,i-1,&leftTreeSize);
+        rightsub = BuildSubTree(i+1,max,&rightTreeSize);
+
+        for(leftTraval = 0;leftTraval<leftTreeSize;leftTraval++)
+        {
+            for(rightTraval = 0;rightTraval<rightTreeSize;rightTraval++)
+            {
+                struct TreeNode *nowTree = (struct TreeNode*)malloc(sizeof(struct TreeNode));
+                nowTree->val = i;
+                
+                nowTree->right = rightsub[rightTraval];
+                nowTree->left = leftsub[leftTraval];
+                result = (struct TreeNode**)realloc(result,(*subTsize+1)*sizeof(struct TreeNode*));
+                result[*subTsize] = nowTree;
+                *subTsize += 1;
+            }
+        }
+
+
+    }
+    return result;
+}
+
+
+/*
+
+执行用时：
+
+28 ms, 在所有 C 提交中击败了10.70%的用户
+内存消耗：28.6 MB, 在所有 C 提交中击败了60.15%的用户
+
+采用递归的方式，处理子问题
+*/
+
+
+
+
+
+
+

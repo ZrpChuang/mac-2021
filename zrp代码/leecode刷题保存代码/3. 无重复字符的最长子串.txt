@@ -1,0 +1,44 @@
+int lengthOfLongestSubstring(char * s){
+    int slen = strlen(s);
+    int i = 0;
+    int lastbreak = -1;//这个表示上一次断裂的具体位置
+    int count = 0;
+    int max = 1;//不断更新，贪心
+    int j;
+    int temp;
+    int flag;
+    if(slen==0)
+    {
+        return 0;
+    }
+    while(s[i]!='\0'&&s[i+1]!='\0' )
+    {
+        flag = 0;
+        i++;//i的含义是表示定位到字符串中的每一个字符
+        for(j = lastbreak+1;j<i;j++)
+        {
+            if(s[j]==s[i])
+            {
+                temp = i-j;
+                if(max<temp)
+                {
+                    max = temp; 
+                }
+                lastbreak = j;
+                flag = 1;
+                break;
+            }
+
+        }
+        if(flag == 0)
+        {
+            temp = i-lastbreak;
+            if(max<temp)
+            {
+                max = temp;
+            }
+        }
+        flag = 0;
+    }
+    return max;
+}
