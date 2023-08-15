@@ -1,0 +1,46 @@
+
+TINY COMPILATION: SAMPLE.TNY
+{ Sample program
+  in TINY language -
+  computes factorial
+}
+read 	5: reserved word: read
+ x;	5: ID, name= x
+;	5: ;
+ { input an integer }
+if 	6: reserved word: if
+ 0 	6: NUM, val= 0
+ < x 	6: ID, name= <x
+ then 	6: reserved word: then
+ { don't compute if x <= 0 }
+  fact 	7: ID, name= fact
+ :=	7: :=
+ 1;	7: NUM, val= 1
+;	7: ;
+
+  repeat	8: reserved word: repeat
+
+    fact 	9: ID, name= fact
+ :=	9: :=
+ fact 	9: ID, name= fact
+ *	9: *
+ x;	9: ID, name= x
+;	9: ;
+
+    x 	10: ID, name= x
+ :=	10: :=
+ x 	10: ID, name= x
+ -	10: -
+ 1	10: NUM, val= 1
+
+  until 	11: reserved word: until
+ x 	11: ID, name= x
+ =	11: =
+ 0;	11: NUM, val= 0
+;	11: ;
+
+  write 	12: reserved word: write
+ fact 	12: ID, name= fact
+  { output factorial of x }
+end	13: reserved word: end
+

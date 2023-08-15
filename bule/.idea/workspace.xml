@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80e8d72f-7330-40fa-bfd9-fbf2472ee7a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DIPHW/DIP_1.mlx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DIPHW/代码截屏.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/bule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k_means/西北地区.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k_means/随便.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lanqiao/main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lanqiao/main.dSYM/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lanqiao/main.dSYM/Contents/Resources/DWARF/main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/.vs/windowprogramming/FileContentIndex/98853ddf-1308-4a49-be10-d3479cabaae6.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/login_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/Form1.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/Resources/login_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/bin/Debug/windowprogramming.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/bin/Debug/windowprogramming.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/bin/Debug/windowprogramming.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/obj/Debug/windowprogramming.Form1.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/obj/Debug/windowprogramming.Properties.Resources.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/obj/Debug/windowprogramming.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/obj/Debug/windowprogramming.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/obj/Debug/windowprogramming.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/obj/Debug/windowprogramming.csproj.SuggestedBindingRedirects.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/obj/Debug/windowprogramming.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/obj/Debug/windowprogramming.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../k_means/.idea/k_means.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../k_means/.idea/k_means.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../k_means/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../k_means/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/B_role.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lanqiao/B_role.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/.cmake/api/v1/reply/cache-v2-1aefdf85c271f1656c36.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-1d4146104165df2113ed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7e76dbb475aef6ed4d3a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-13T13-36-06-0012.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/.cmake/api/v1/reply/target-lanqiao-Debug-877533dd88e6b9a0bd9b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-d1fec8847d7c587f39f7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/lanqiao.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/lanqiao" beforeDir="false" afterPath="$PROJECT_DIR$/../lanqiao/cmake-build-debug/lanqiao" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lanqiao/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lanqiao/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../windowprogramming/.vs/windowprogramming/FileContentIndex/0b8e437d-e4ca-428d-be36-3b7611a75174.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../windowprogramming/.vs/windowprogramming/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../windowprogramming/.vs/windowprogramming/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../windowprogramming/windowprogramming/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../windowprogramming/windowprogramming/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../windowprogramming/windowprogramming/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../windowprogramming/windowprogramming/Properties/Resources.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/Properties/Resources.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../windowprogramming/windowprogramming/Properties/Resources.resx" beforeDir="false" afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/Properties/Resources.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../windowprogramming/windowprogramming/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../windowprogramming/windowprogramming/windowprogramming.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../windowprogramming/windowprogramming/windowprogramming.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/c++大作业.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/c++大作业.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/c++大作业.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/c++大作业.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/c++大作业.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/headfile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/c++大作业.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/c++大作业.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/c++大作业.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/c++大作业.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/c++大作业.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/c++大作业.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/c++大作业.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/c++大作业.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/c++大作业.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/c++大作业.tlog/c++大作业.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/c++大作业.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/c++大作业.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/c++大作业.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/c++大作业.vcxproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/vc143.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/x64/Debug/vc143.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zrp代码/大二下 c++大作业/标头.h" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3.1" />
+  </component>
+  <component name="ProjectId" id="2NgOd8i5MxPHj72SmZPptMm2Grj" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bule" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.main.cpp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80e8d72f-7330-40fa-bfd9-fbf2472ee7a3" name="Changes" comment="" />
+      <created>1680082343578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680082343578</updated>
+      <workItem from="1680082344837" duration="53000" />
+      <workItem from="1680084978788" duration="22000" />
+      <workItem from="1680085021684" duration="2435000" />
+      <workItem from="1680504547796" duration="594000" />
+      <workItem from="1680506517870" duration="1751000" />
+      <workItem from="1680522504295" duration="6498000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

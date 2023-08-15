@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/zrp/Desktop/zrpstudy/编程文件 -B /Users/zrp/Desktop/zrpstudy/编程文件/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/zrp/Desktop/zrpstudy/program -B /Users/zrp/Desktop/zrpstudy/program/cmake-build-debug
 CMake Error at CMakeLists.txt:2 (project):
   project PROJECT called with incorrect number of arguments
 
