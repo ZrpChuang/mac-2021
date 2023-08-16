@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "MAIN.C": "cpp",
-        "PARSE.C": "cpp",
-        "SCAN.C": "cpp",
-        "SYMTAB.C": "cpp"
-    }
-}

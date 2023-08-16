@@ -90,13 +90,11 @@ TokenType getToken(void)
    while (state != DONE)
    { int c = getNextChar();//一次就一个字符，结束了就退出while了
      if(EOF_flag) return ENDFILE;
-     printf("%c",c);
      save = TRUE;//初始化
      TraceScan = TRUE;
 
      switch (state)//一开始是开始状态
      { case START:
-          // printf("start!");
          if (isdigit(c)){
            state = INNUM;
            currentToken = NUM;
@@ -104,10 +102,20 @@ TokenType getToken(void)
          }
          //此处请自己填写（字符、:、空格/tab/换行、{、算符及界符等）
          //ASSIGN,EQ,  LT,PLUS,MINUS,TIMES,OVER,LPAREN,RPAREN,SEMI
-         //赋值    等于    +   -       *     >
+         //赋值    等于  < +   -       *     /    (       )      ;
          else if(c == '+' )  {
              state = DONE;
              currentToken = PLUS;
+             save = TRUE;
+         }
+         else if(c == '('){
+             state = DONE;
+             currentToken = LPAREN;
+             save = TRUE;
+         }
+         else if(c == ')'){
+             state = DONE;
+             currentToken = RPAREN;
              save = TRUE;
          }
          else if(c == '-' )  {
@@ -126,6 +134,10 @@ TokenType getToken(void)
          else if(c == '=' )  {
              state = DONE;
              currentToken = EQ;
+         }
+         else if(c == '<') {
+             state = DONE;
+             currentToken = LT;
          }
          else if(c == ';' )  {
              state = DONE;
@@ -153,7 +165,7 @@ TokenType getToken(void)
        case INCOMMENT://这个似乎是注释
             if(c == '}'){
                  save = FALSE;
-                 state = DONE;
+                 state = START;
                  TraceScan = FALSE;
             }
             else if(c != '}'){
@@ -203,7 +215,7 @@ TokenType getToken(void)
             currentToken = ID;
            }
            //此处请自己填写，不是字符则回吐，并进入DONE，且识别出一个ID
-         break;
+          break;
        case DONE:
             printf("done!");
        default: /* should never happen */
@@ -220,6 +232,7 @@ TokenType getToken(void)
          currentToken = reservedLookup(tokenString);//保留字匹配
      }
    }
+   TraceScan = FALSE;
    if (TraceScan) {
      fprintf(listing,"\t%d: ",lineno);
      printToken(currentToken,tokenString);

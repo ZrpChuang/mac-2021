@@ -12,14 +12,14 @@
 #include "symtab.h"
 
 /* SIZE is the size of the hash table */
-#define SIZE 211
+#define SIZE 211 //é•¿åº¦ä¸º211çš„å“ˆå¸Œè¡¨
 
 /* SHIFT is the power of two used as multiplier
    in hash function  */
 #define SHIFT 4
 
 /* the hash function */
-static int hash ( char * key )
+static int hash ( char * key ) //å“ˆå¸Œå‡½æ•°
 { int temp = 0;
   int i = 0;
   while (key[i] != '\0')
@@ -43,15 +43,15 @@ typedef struct LineListRec
  * the list of line numbers in which
  * it appears in the source code
  */
-typedef struct BucketListRec
-   { char * name;
-     LineList lines;
+typedef struct BucketListRec //ç¬¦å·è¡¨æ¡ç›®ç»“æ„
+   { char * name;//åå­—
+     LineList lines;//è¡Œé“¾
      int memloc ; /* memory location for variable */
-     struct BucketListRec * next;
-   } * BucketList;
+     struct BucketListRec * next;//ä¸‹ä¸€ä¸ªæ¡ç›®
+   } * BucketList;//æŒ‡å‘æ¡ç›®çš„æŒ‡é’ˆ
 
 /* the hash table */
-static BucketList hashTable[SIZE];
+static BucketList hashTable[SIZE];//æŒ‡é’ˆè¿åŸé“¾ç»“æ„
 
 /* Procedure st_insert inserts line numbers and
  * memory locations into the symbol table
@@ -59,10 +59,39 @@ static BucketList hashTable[SIZE];
  * first time, otherwise ignored
  */
 void st_insert( char * name, int lineno, int loc )
-{ 
-  /* ÇëÍê³É·ûºÅ±íÌõÄ¿²åÈë×Ó³ÌĞò¡£
-     ÏÈÕÒ£¬ÕÒ²»µ½ËµÃ÷¶¨ÒåÁËÒ»¸öĞÂÃû×Ö£¬Ôò²åÈëĞÂÌõÄ¿£¬Ä¬ÈÏ²åÔÚÆä¶ÔÓ¦¹şÏ£±íÏîµÄ±íÍ·£»
-     ÕÒµ½ËµÃ÷½ö¶ÔÃû×Ö½øĞĞÒıÓÃ£¬Ôò½«ĞĞºÅ¼ÓÈëµ½¸ÃÃû×ÖµÄĞĞÁ´ÖĞ  */
+{ //æ’å…¥æŸä¸ªid
+  int memloc = st_lookup(name);//æŸ¥çœ‹ä½ç½®
+  if(memloc==-1){//æ²¡æ‰¾åˆ°ï¼Œå®šä¹‰æ–°åå­—
+      int h = hash(name);//å“ˆå¸Œåˆ°ä½ç½®
+      BucketList l =  hashTable[h];//æ‰¾åˆ°å“ˆå¸Œè¡¨å¤´
+
+
+      struct BucketListRec * bnode = (struct BucketListRec*)malloc(sizeof(struct BucketListRec));//æ–°å®šä¹‰èŠ‚ç‚¹
+      bnode->name = name;
+      bnode->next = NULL;
+      hashTable[h] = bnode;
+
+      struct LineListRec * lnode = (struct LineListRec*)malloc(sizeof(struct LineListRec));//æ–°å®šä¹‰è¡ŒèŠ‚ç‚¹
+      lnode ->lineno = lineno;
+      lnode->next = NULL;
+      bnode->lines = lnode;
+      bnode->memloc = loc;//ä½ç½®æ˜¯ä¼ è¿›æ¥çš„ä¸ç”¨è‡ªå·±å¤„ç†
+
+
+
+  }
+  else{//æ‰¾åˆ°
+      int h = hash(name);//å“ˆå¸Œåˆ°ä½ç½®
+      BucketList l =  hashTable[h];
+      while ((l != NULL) && (strcmp(name,l->name) != 0))
+        l = l->next;
+      struct LineListRec * lnode = (struct LineListRec*)malloc(sizeof(struct LineListRec));
+      lnode ->lineno = lineno;
+      lnode->next = l->lines;
+      l->lines = lnode;//åŠ å…¥æ–°çš„è¡Œ
+  }
+
+  
   
 } /* st_insert */
 
@@ -82,7 +111,7 @@ int st_lookup ( char * name )
  * listing of the symbol table contents 
  * to the listing file
  */
-void printSymTab(FILE * listing)
+void printSymTab(FILE * listing)//æ‰“å°ç¬¦å·è¡¨
 { int i;
   fprintf(listing,"Variable Name  Location   Line Numbers\n");
   fprintf(listing,"-------------  --------   ------------\n");

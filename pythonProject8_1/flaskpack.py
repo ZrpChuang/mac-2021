@@ -1,14 +1,16 @@
 from flask import Flask, request, jsonify
 from keras.models import load_model
 import datetime
+import random
 
 app = Flask(__name__)
 model = load_model('model.h5')
 
-@app.route('/api', methods=['POST'])
+@app.route('/ctit', methods=['GET'])
 def predict_time():
     # 获取请求中的参数
     a = request.json['a']
+    a = int(request.args.get('a'))
 
     # 进行预测
     res = []

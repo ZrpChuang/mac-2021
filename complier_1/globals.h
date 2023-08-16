@@ -31,7 +31,8 @@ typedef enum
     /* multicharacter tokens */
     ID,NUM,
     /* special symbols */
-    ASSIGN,EQ,LT,PLUS,MINUS,TIMES,OVER,LPAREN,RPAREN,SEMI
+    ASSIGN,EQ,LT,PLUS,MINUS,TIMES,OVER,LPAREN,RPAREN,SEMI  //分号
+
    } TokenType;//这里定义了所有的token类型
 
 extern FILE* source; /* source code text file */
@@ -44,26 +45,28 @@ extern int lineno; /* source line number for listing */
 /***********   Syntax tree for parsing ************/
 /**************************************************/
 
-typedef enum {StmtK,ExpK} NodeKind;
-typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;
+typedef enum {StmtK,ExpK} NodeKind;//节点类型
+typedef enum {IfK,RepeatK,AssignK,ReadK,WriteK} StmtKind;//
+//if_kind,
 typedef enum {OpK,ConstK,IdK} ExpKind;
-
+            //运算符 常量 变量
 /* ExpType is used for type checking */
 typedef enum {Void,Integer,Boolean} ExpType;
+//空类型，整数类型，布尔类型
 
 #define MAXCHILDREN 3
 
-typedef struct treeNode
-   { struct treeNode * child[MAXCHILDREN];
-     struct treeNode * sibling;
-     int lineno;
-     NodeKind nodekind;
-     union { StmtKind stmt; ExpKind exp;} kind;
-     union { TokenType op;
-             int val;
+typedef struct treeNode //树节点
+   { struct treeNode * child[MAXCHILDREN];//子树
+     struct treeNode * sibling;//兄弟
+     int lineno;//现在处于第几行
+     NodeKind nodekind;//节点类型  语句类型，或者是表达式类型
+     union { StmtKind stmt; ExpKind exp;} kind;//8种
+     union { TokenType op;//运算符
+             int val;//constk
              char * name; } attr;
      ExpType type; /* for type checking of exps */
-   } TreeNode;
+   } TreeNode;//树节点
 
 /**************************************************/
 /***********   Flags for tracing       ************/

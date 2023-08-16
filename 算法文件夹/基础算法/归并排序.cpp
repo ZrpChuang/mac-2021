@@ -6,7 +6,13 @@ const int N = 100000;
 int n;
 int q[N];
 int temp[N];
+//简单写一下归并排序的思路
 
+//直接就递归完成左右字数组的归并排序
+
+//然后直接进行合并
+
+//多出来没有被合并的数组直接放在最后面
 void merge_sort(int l,int r){
     if(l >= r) return;
     
@@ -25,8 +31,6 @@ void merge_sort(int l,int r){
     
     while(p1 <= mid) temp[t_p ++ ] = q[p1 ++ ];
     while(p2 <= r) temp[t_p ++ ] = q[p2 ++ ];
-    
-    
     for(int i = l;i <= r;i ++ ) q[i] = temp[i];//拷贝进去
     
     return;

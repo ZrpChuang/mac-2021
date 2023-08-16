@@ -54,7 +54,7 @@ void printToken( TokenType token, const char* tokenString )
 /* Function newStmtNode creates a new statement
  * node for syntax tree construction
  */
-TreeNode * newStmtNode(StmtKind kind)
+TreeNode * newStmtNode(StmtKind kind) //构造statement
 { TreeNode * t = (TreeNode *) malloc(sizeof(TreeNode));
   int i;
   if (t==NULL)
@@ -62,8 +62,8 @@ TreeNode * newStmtNode(StmtKind kind)
   else {
     for (i=0;i<MAXCHILDREN;i++) t->child[i] = NULL;
     t->sibling = NULL;
-    t->nodekind = StmtK;
-    t->kind.stmt = kind;
+    t->nodekind = StmtK;//已经大类确定是statement
+    t->kind.stmt = kind;//具体类型
     t->lineno = lineno;
   }
   return t;
@@ -72,7 +72,7 @@ TreeNode * newStmtNode(StmtKind kind)
 /* Function newExpNode creates a new expression 
  * node for syntax tree construction
  */
-TreeNode * newExpNode(ExpKind kind)
+TreeNode * newExpNode(ExpKind kind) //构造
 { TreeNode * t = (TreeNode *) malloc(sizeof(TreeNode));
   int i;
   if (t==NULL)
@@ -80,8 +80,8 @@ TreeNode * newExpNode(ExpKind kind)
   else {
     for (i=0;i<MAXCHILDREN;i++) t->child[i] = NULL;
     t->sibling = NULL;
-    t->nodekind = ExpK;
-    t->kind.exp = kind;
+    t->nodekind = ExpK;//构造
+    t->kind.exp = kind;//
     t->lineno = lineno;
     t->type = Void;
   }
@@ -122,7 +122,7 @@ static void printSpaces(void)
 /* procedure printTree prints a syntax tree to the 
  * listing file using indentation to indicate subtrees
  */
-void printTree( TreeNode * tree )
+void printTree( TreeNode * tree ) //打印整棵树代码已经写好了
 { int i;
   INDENT;
   while (tree != NULL) {
@@ -155,10 +155,10 @@ void printTree( TreeNode * tree )
           fprintf(listing,"Op: ");
           printToken(tree->attr.op,"\0");
           break;
-        case ConstK:
+        case ConstK: //直接是一个常量
           fprintf(listing,"Const: %d\n",tree->attr.val);
           break;
-        case IdK:
+        case IdK: //是一个
           fprintf(listing,"Id: %s\n",tree->attr.name);
           break;
         default:
@@ -173,3 +173,61 @@ void printTree( TreeNode * tree )
   }
   UNINDENT;
 }
+
+
+
+
+// void printTree(TreeNode *tree)
+// {
+//     int i;
+//     INDENT;
+//     while (tree != NULL) {
+//         for (i = 0; i < indentno; i++)
+//             printf("|   ");
+//         printf("|-- ");
+//         if (tree->nodekind == StmtK) {
+//             switch (tree->kind.stmt) {
+//                 case IfK:
+//                     printf("If\n");
+//                     break;
+//                 case RepeatK:
+//                     printf("Repeat\n");
+//                     break;
+//                 case AssignK:
+//                     printf("Assign to: %s\n", tree->attr.name);
+//                     break;
+//                 case ReadK:
+//                     printf("Read: %s\n", tree->attr.name);
+//                     break;
+//                 case WriteK:
+//                     printf("Write\n");
+//                     break;
+//                 default:
+//                     printf("Unknown StmtNode kind\n");
+//                     break;
+//             }
+//         } else if (tree->nodekind == ExpK) {
+//             switch (tree->kind.exp) {
+//                 case OpK:
+//                     printf("Op: ");
+//                     printToken(tree->attr.op, "\0");
+//                     printf("\n");
+//                     break;
+//                 case ConstK:
+//                     printf("Const: %d\n", tree->attr.val);
+//                     break;
+//                 case IdK:
+//                     printf("Id: %s\n", tree->attr.name);
+//                     break;
+//                 default:
+//                     printf("Unknown ExpNode kind\n");
+//                     break;
+//             }
+//         } else
+//             printf("Unknown node kind\n");
+//         for (i = 0; i < MAXCHILDREN; i++)
+//             printTree(tree->child[i]);
+//         tree = tree->sibling;
+//     }
+//     UNINDENT;
+// }

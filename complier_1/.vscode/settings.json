@@ -5,6 +5,8 @@
         "MAIN.C": "cpp",
         "PARSE.C": "cpp",
         "ANALYZE.C": "cpp",
-        "UTIL.C": "cpp"
+        "UTIL.C": "cpp",
+        "CODE.C": "cpp",
+        "CGEN.C": "cpp"
     }
 }
