@@ -12,7 +12,7 @@ int temp[N];
 
 //然后直接进行合并
 
-//多出来没有被合并的数组直接放在最后面
+多出来没有被合并的数组直接放在最后面
 void merge_sort(int l,int r){
     if(l >= r) return;
     
@@ -35,6 +35,9 @@ void merge_sort(int l,int r){
     
     return;
 }
+
+
+
 
 int main(void){
     cin >> n;
