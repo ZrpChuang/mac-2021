@@ -1,0 +1,18 @@
+{ Sample program
+  in TINY language -
+  computes factorial
+}
+read x; { input an integer }
+a:=1;
+b:=1;
+i:=3;
+
+repeat
+  c := a + b;
+  write c;
+  a:=b;
+  b:=c;
+  i := i + 1
+until i = x + 1
+
+
